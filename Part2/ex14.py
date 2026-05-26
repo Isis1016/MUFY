@@ -1,4 +1,7 @@
+def print_countries(countries):
+    for country in countries:
+        print("Come and visit " + country)
 
-def print_countries(countries):["Malaysia", "Japan", "Armenia", "Brazil", "Australia"]
-    return "Come and visit " + countries[0] + ", " + countries[1] + ", " + countries[2] + ", " + countries[3] + ", and " + countries[4] + "!"
-    print(print_countries(countries))
+countries = ["Malaysia", "Japan", "Armenia", "Brazil", "Australia"]
+
+print_countries(countries)
